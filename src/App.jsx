@@ -1,5 +1,12 @@
-const App =() => {
-    return <div><h1 className="text-3xl font-bold underline">Welcome to Posrtf</h1></div>
-}
+import { Navbar, Welcome, Dock } from "#components";
+const App = () => {
+  return (
+    <main>
+      <Navbar />
+      <Welcome />
+      <Dock />
+    </main>
+  );
+};
 
 export default App;
